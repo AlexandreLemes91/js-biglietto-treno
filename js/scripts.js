@@ -18,7 +18,7 @@ if( isNaN(distanza)){
     alert("Perfavore inserire solo valori numerici");
     distanza = parseInt( prompt("Gentile viaggiatore quanti Km deve percorrere?"));
     console.log(distanza);
-    document.getElementById("distanza").innerHTML = distanza + "Km"
+    document.getElementById("distanza").innerHTML = distanza + "Km";
 }
 
 var età = parseInt( prompt("Quanti anni ha?"));
@@ -28,11 +28,11 @@ if( isNaN(età)){
     alert("Perfavore inserire solo valori numerici");
     età = parseInt( prompt("Quanti anni ha?"));
     console.log(età);
-    document.getElementById("eta").innerHTML = età + " anni"
+    document.getElementById("eta").innerHTML = età + " anni";
 }
 
 //prezzo biglietto
-var prezzoBiglietto = (distanza * costoKm)  ;
+var prezzoBiglietto = (distanza * costoKm);
 console.log(prezzoBiglietto);
 
 //SCONTI
@@ -54,7 +54,7 @@ else if( età > 64){
 
 var finalPrice = prezzoBiglietto.toFixed(2);
 console.log(finalPrice);
-document.getElementById("prezzo").innerHTML = finalPrice + "€"
+document.getElementById("prezzo").innerHTML = finalPrice + "€";
 
 
 /* SE METTO LETTERE E NUMERI OTTENGO VALORI NUMERICI CON IL PARSEINT??? */
